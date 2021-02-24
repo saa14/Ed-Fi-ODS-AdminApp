@@ -19,6 +19,7 @@ object AdminAppProject : Project({
         """.trimIndent())
         param("teamcity.ui.settings.readOnly","true")
         param("adminApp.version", "2.1.1")
+        param("build.counter", "1")
     }
 
     template(_self.templates.BuildAndTestTemplate)
