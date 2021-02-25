@@ -26,7 +26,4 @@ object AdminAppProject : Project({
 
     buildType(_self.buildTypes.BuildBranch)
     buildType(_self.buildTypes.BuildPullRequests)
-    buildType(_self.buildTypes.Deploy)
-    buildType(_self.buildTypes.PublishPackagesToAzureArtifacts)
-    buildType(_self.buildTypes.PublishReleasePackagesToAzureArtifacts)
 })
